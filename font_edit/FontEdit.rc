@@ -1,0 +1,464 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\FontEdit.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\FontEdit.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FONTEDIT_DIALOG DIALOGEX 0, 0, 354, 172
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "FontEdit"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Внеси таблицу в строку ->",IDC_BUTTON_MAKE_CODE,220,95,
+                    130,29
+    PUSHBUTTON      "<- Внести строку в таблицу",IDC_BUTTON_READ_CODE,90,95,
+                    125,30
+    CONTROL         "",IDC_X0Y0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,5,10,
+                    8
+    CONTROL         "",IDC_X2Y0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,5,
+                    10,8
+    CONTROL         "",IDC_X3Y0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,5,
+                    10,8
+    CONTROL         "",IDC_X4Y0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,5,
+                    10,8
+    CONTROL         "",IDC_X1Y0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,5,
+                    10,8
+    CONTROL         "",IDC_X5Y0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,5,
+                    10,8
+    CONTROL         "",IDC_X6Y0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,5,
+                    10,8
+    CONTROL         "",IDC_X7Y0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,5,
+                    10,8
+    CONTROL         "",IDC_X0Y1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,15,
+                    10,8
+    CONTROL         "",IDC_X2Y1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,15,
+                    10,8
+    CONTROL         "",IDC_X3Y1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,15,
+                    10,8
+    CONTROL         "",IDC_X4Y1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,15,
+                    10,8
+    CONTROL         "",IDC_X1Y1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,15,
+                    10,8
+    CONTROL         "",IDC_X5Y1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,15,
+                    10,8
+    CONTROL         "",IDC_X6Y1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,15,
+                    10,8
+    CONTROL         "",IDC_X7Y1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,15,
+                    10,8
+    CONTROL         "",IDC_X0Y2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,25,
+                    10,8
+    CONTROL         "",IDC_X2Y2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,25,
+                    10,8
+    CONTROL         "",IDC_X3Y2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,25,
+                    10,8
+    CONTROL         "",IDC_X4Y2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,25,
+                    10,8
+    CONTROL         "",IDC_X1Y2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,25,
+                    10,8
+    CONTROL         "",IDC_X5Y2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,25,
+                    10,8
+    CONTROL         "",IDC_X6Y2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,25,
+                    10,8
+    CONTROL         "",IDC_X7Y2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,25,
+                    10,8
+    CONTROL         "",IDC_X0Y3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,35,
+                    10,8
+    CONTROL         "",IDC_X2Y3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,35,
+                    10,8
+    CONTROL         "",IDC_X3Y3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,35,
+                    10,8
+    CONTROL         "",IDC_X4Y3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,35,
+                    10,8
+    CONTROL         "",IDC_X1Y3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,35,
+                    10,8
+    CONTROL         "",IDC_X5Y3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,35,
+                    10,8
+    CONTROL         "",IDC_X6Y3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,35,
+                    10,8
+    CONTROL         "",IDC_X7Y3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,35,
+                    10,8
+    CONTROL         "",IDC_X0Y4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,45,
+                    10,8
+    CONTROL         "",IDC_X2Y4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,45,
+                    10,8
+    CONTROL         "",IDC_X3Y4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,45,
+                    10,8
+    CONTROL         "",IDC_X4Y4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,45,
+                    10,8
+    CONTROL         "",IDC_X1Y4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,45,
+                    10,8
+    CONTROL         "",IDC_X5Y4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,45,
+                    10,8
+    CONTROL         "",IDC_X6Y4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,45,
+                    10,8
+    CONTROL         "",IDC_X7Y4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,45,
+                    10,8
+    CONTROL         "",IDC_X0Y5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,55,
+                    10,8
+    CONTROL         "",IDC_X2Y5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,55,
+                    10,8
+    CONTROL         "",IDC_X3Y5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,55,
+                    10,8
+    CONTROL         "",IDC_X4Y5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,55,
+                    10,8
+    CONTROL         "",IDC_X1Y5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,55,
+                    10,8
+    CONTROL         "",IDC_X5Y5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,55,
+                    10,8
+    CONTROL         "",IDC_X6Y5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,55,
+                    10,8
+    CONTROL         "",IDC_X7Y5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,55,
+                    10,8
+    CONTROL         "",IDC_X0Y6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,65,
+                    10,8
+    CONTROL         "",IDC_X2Y6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,65,
+                    10,8
+    CONTROL         "",IDC_X3Y6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,65,
+                    10,8
+    CONTROL         "",IDC_X4Y6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,65,
+                    10,8
+    CONTROL         "",IDC_X1Y6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,65,
+                    10,8
+    CONTROL         "",IDC_X5Y6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,65,
+                    10,8
+    CONTROL         "",IDC_X6Y6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,65,
+                    10,8
+    CONTROL         "",IDC_X7Y6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,65,
+                    10,8
+    CONTROL         "",IDC_X0Y7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,75,
+                    10,8
+    CONTROL         "",IDC_X2Y7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,75,
+                    10,8
+    CONTROL         "",IDC_X3Y7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,75,
+                    10,8
+    CONTROL         "",IDC_X4Y7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,75,
+                    10,8
+    CONTROL         "",IDC_X1Y7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,75,
+                    10,8
+    CONTROL         "",IDC_X5Y7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,75,
+                    10,8
+    CONTROL         "",IDC_X6Y7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,75,
+                    10,8
+    CONTROL         "",IDC_X7Y7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,75,
+                    10,8
+    CONTROL         "",IDC_X0Y8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,85,
+                    10,8
+    CONTROL         "",IDC_X2Y8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,85,
+                    10,8
+    CONTROL         "",IDC_X3Y8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,85,
+                    10,8
+    CONTROL         "",IDC_X4Y8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,85,
+                    10,8
+    CONTROL         "",IDC_X1Y8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,85,
+                    10,8
+    CONTROL         "",IDC_X5Y8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,85,
+                    10,8
+    CONTROL         "",IDC_X6Y8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,85,
+                    10,8
+    CONTROL         "",IDC_X7Y8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,85,
+                    10,8
+    CONTROL         "",IDC_X0Y9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,95,
+                    10,8
+    CONTROL         "",IDC_X2Y9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,95,
+                    10,8
+    CONTROL         "",IDC_X3Y9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,95,
+                    10,8
+    CONTROL         "",IDC_X4Y9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,95,
+                    10,8
+    CONTROL         "",IDC_X1Y9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,95,
+                    10,8
+    CONTROL         "",IDC_X5Y9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,95,
+                    10,8
+    CONTROL         "",IDC_X6Y9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,95,
+                    10,8
+    CONTROL         "",IDC_X7Y9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,95,
+                    10,8
+    CONTROL         "",IDC_X0Y10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,105,
+                    10,8
+    CONTROL         "",IDC_X2Y10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,
+                    105,10,8
+    CONTROL         "",IDC_X3Y10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,
+                    105,10,8
+    CONTROL         "",IDC_X4Y10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,
+                    105,10,8
+    CONTROL         "",IDC_X1Y10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,
+                    105,10,8
+    CONTROL         "",IDC_X5Y10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,
+                    105,10,8
+    CONTROL         "",IDC_X6Y10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,
+                    105,10,8
+    CONTROL         "",IDC_X7Y10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,
+                    105,10,8
+    CONTROL         "",IDC_X0Y11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,115,
+                    10,8
+    CONTROL         "",IDC_X2Y11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,
+                    115,10,8
+    CONTROL         "",IDC_X3Y11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,
+                    115,10,8
+    CONTROL         "",IDC_X4Y11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,
+                    115,10,8
+    CONTROL         "",IDC_X1Y11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,
+                    115,10,8
+    CONTROL         "",IDC_X5Y11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,
+                    115,10,8
+    CONTROL         "",IDC_X6Y11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,
+                    115,10,8
+    CONTROL         "",IDC_X7Y11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,
+                    115,10,8
+    CONTROL         "",IDC_X0Y12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,125,
+                    10,8
+    CONTROL         "",IDC_X2Y12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,
+                    125,10,8
+    CONTROL         "",IDC_X3Y12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,
+                    125,10,8
+    CONTROL         "",IDC_X4Y12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,
+                    125,10,8
+    CONTROL         "",IDC_X1Y12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,
+                    125,10,8
+    CONTROL         "",IDC_X5Y12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,
+                    125,10,8
+    CONTROL         "",IDC_X6Y12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,
+                    125,10,8
+    CONTROL         "",IDC_X7Y12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,
+                    125,10,8
+    CONTROL         "",IDC_X0Y13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,135,
+                    10,8
+    CONTROL         "",IDC_X2Y13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,
+                    135,10,8
+    CONTROL         "",IDC_X3Y13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,
+                    135,10,8
+    CONTROL         "",IDC_X4Y13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,
+                    135,10,8
+    CONTROL         "",IDC_X1Y13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,
+                    135,10,8
+    CONTROL         "",IDC_X5Y13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,
+                    135,10,8
+    CONTROL         "",IDC_X6Y13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,
+                    135,10,8
+    CONTROL         "",IDC_X7Y13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,
+                    135,10,8
+    CONTROL         "",IDC_X0Y14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,145,
+                    10,8
+    CONTROL         "",IDC_X2Y14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,
+                    145,10,8
+    CONTROL         "",IDC_X3Y14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,
+                    145,10,8
+    CONTROL         "",IDC_X4Y14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,
+                    145,10,8
+    CONTROL         "",IDC_X1Y14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,
+                    145,10,8
+    CONTROL         "",IDC_X5Y14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,
+                    145,10,8
+    CONTROL         "",IDC_X6Y14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,
+                    145,10,8
+    CONTROL         "",IDC_X7Y14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,
+                    145,10,8
+    CONTROL         "",IDC_X0Y15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,155,
+                    10,8
+    CONTROL         "",IDC_X2Y15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,
+                    155,10,8
+    CONTROL         "",IDC_X3Y15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,
+                    155,10,8
+    CONTROL         "",IDC_X4Y15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,
+                    155,10,8
+    CONTROL         "",IDC_X1Y15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,
+                    155,10,8
+    CONTROL         "",IDC_X5Y15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,
+                    155,10,8
+    CONTROL         "",IDC_X6Y15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,
+                    155,10,8
+    CONTROL         "",IDC_X7Y15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,
+                    155,10,8
+    EDITTEXT        IDC_EDIT_SYMBOL,210,150,140,12,ES_AUTOHSCROLL
+    LTEXT           "Комментарий:",IDC_STATIC,160,150,47,8
+    EDITTEXT        IDC_EDIT_OUT,90,130,260,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Очистить",IDC_BUTTON_CLEAR,130,30,35,30
+    COMBOBOX        IDC_COMBO_HEIGH,295,5,48,30,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    RTEXT           "Высота, пикс:",IDC_STATIC,245,5,45,8
+    RTEXT           "Ширина, пикс:",IDC_STATIC,245,20,46,8
+    COMBOBOX        IDC_COMBO_WIDE,295,20,48,30,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "<<",IDC_BUTTON_LEFT,100,35,25,20
+    PUSHBUTTON      ">>",IDC_BUTTON_RIGHT,170,35,25,20
+    PUSHBUTTON      "^",IDC_BUTTON_UP,135,5,25,20
+    PUSHBUTTON      "V",IDC_BUTTON_DOWN,135,65,25,20
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "FontEdit MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "FontEdit\0"
+            VALUE "LegalCopyright", "Copyright (C) 2006\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "FontEdit.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "FontEdit Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FONTEDIT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 347
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 165
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_FONTEDIT_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_HEIGH, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_HEIGH, 0x403, 3, 0
+0x3631, "\000" 
+    0
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\FontEdit.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
