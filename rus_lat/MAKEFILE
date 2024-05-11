@@ -1,0 +1,30 @@
+# Wedit Makefile for project ruslat
+CFLAGS=-Ic:\lcc\include  -O 
+CC=c:\lcc\bin\lcc.exe
+LINKER=c:\lcc\bin\lcclnk.exe
+OBJS=\
+	ruslat.res \
+	ruslat.obj
+
+LIBS= tcconio.lib shell32.lib
+
+c:\lcc\project\ruslat\lcc\ruslat.exe:	$(OBJS) Makefile
+	$(LINKER)  -s -subsystem windows -o c:\lcc\project\ruslat\lcc\ruslat.exe $(OBJS) $(LIBS)
+
+# Build ruslat.res
+RUSLAT_RC=\
+	c:\lcc\project\ruslat\ruslatres.h\
+
+ruslat.res:	$(RUSLAT_RC) c:\lcc\project\ruslat\ruslat.rc
+	lrc -Ic:\lcc\project\ruslat -Ic:\lcc\include  c:\lcc\project\ruslat\ruslat.rc
+
+# Build ruslat.c
+RUSLAT_C=\
+	c:\lcc\project\ruslat\ruslatres.h\
+
+ruslat.obj: $(RUSLAT_C) c:\lcc\project\ruslat\ruslat.c
+	$(CC) -c $(CFLAGS) c:\lcc\project\ruslat\ruslat.c
+
+link:
+	$(LINKER)  -s -subsystem windows -o c:\lcc\project\ruslat\lcc\ruslat.exe $(OBJS) $(LIBS)
+
